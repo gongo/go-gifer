@@ -10,11 +10,9 @@ The following programs must be in the `$PATH`:
 - [ffmpeg](http://www.ffmpeg.org/)
 - [gifsicle](http://www.lcdf.org/gifsicle/)
 
-## Build
+## Installation
 
     $ go get github.com/gongo/go-gifer
-    $ cd $GOPATH/github.com/gongo/go-gifer
-    $ go build
 
 ## Usage
 
