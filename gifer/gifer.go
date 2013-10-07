@@ -27,7 +27,7 @@ func NewGifer(filename string) *Gifer {
 		sourceFilename: filename,
 		numberOfFrame:  100,
 		mp4Info:        GetMP4Info(filename),
-		numberOfThread: runtime.GOMAXPROCS(-1) * 2,
+		numberOfThread: runtime.GOMAXPROCS(-1),
 		delay:          50,
 		loopCount:      0,
 	}
